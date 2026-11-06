@@ -25,6 +25,7 @@
 11. [Known Limitations & Current Environment Status](#known-limitations--current-environment-status)
 12. [Project Structure](#project-structure)
 13. [Hackathon Milestone Progression](#hackathon-milestone-progression)
+14. [Switch Demo](#switch-demo)
 
 ---
 
@@ -449,3 +450,14 @@ OpenSource-Guardian/
 - [x] **M7 — Switch Agent Integration**: Switch Agent Bridge WebSocket engine, heartbeats, and REST ops.
 - [x] **M8 — End-to-End Integration & Multi-Agent Collaboration**: E2E pipeline, thread memory, loop guards, and smoke test.
 - [x] **M9 — Polish, Documentation & Hackathon Submission**: Judge-ready README, submission write-up, and demo guide.
+
+---
+
+## Switch Demo
+
+OpenSource Guardian demonstrates a repository review workflow
+through Switch-connected AI agents.
+
+The current local smoke test validates the review pipeline using
+mocked Switch responses. Live Bridge credentials are required for
+the standalone Guardian app to receive real Switch events.
